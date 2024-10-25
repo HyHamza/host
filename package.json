@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "description": "A user verification system via WhatsApp using Baileys and Express.js",
     "main": "index.js",
+    "type": "module", 
     "scripts": {
         "start": "node index.js",
-        "dev": "nodemon index.js",
-        "type": "module"
+        "dev": "nodemon index.js"
     },
     "author": "Your Name",
     "license": "MIT",
